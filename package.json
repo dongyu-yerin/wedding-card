@@ -1,11 +1,11 @@
 {
   "name": "wedding-card",
   "version": "0.1.0",
-  "description": "A wedding invitation web page template",
+  "description": "A wedding card web page template",
   "author": "DongYu Kim <ehddb2252@gmail.com>",
   "license": "MIT",
   "private": true,
-  "homepage": "https://dongyu-yerin.github.io/wedding-card/",
+  "homepage": "https://dongyu-yerin.github.io/wedding-card",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

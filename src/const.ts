@@ -16,7 +16,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 // 예: 예식일 8월 -> 8월 15일 광복절
 export const HOLIDAYS = [3]
 
-export const LOCATION = "메리빌리아 더프레스티지"
+export const LOCATION = "메리빌리아 더 프레스티지 수원"
 export const LOCATION_ADDRESS = "경기 수원시 권선구 세화로 116 메리빌리아더프레스티지 웨딩홀"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
