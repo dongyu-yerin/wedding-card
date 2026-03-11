@@ -23,6 +23,7 @@ export const ShareButton = () => {
           if (!kakao) {
             return
           }
+          console.log(window.location.protocol + "//" + window.location.host + baseUrl)
           const page = "wedding-card"
           kakao.Share.sendDefault({
             objectType: "location",
