@@ -15,7 +15,7 @@ import {
 
 const distFolder = "build"
 
-let base = "/wedding-card"
+let base = "/wedding-card/"
 
 try {
   const url = new URL(pkg.homepage)
