@@ -24,6 +24,7 @@ export const ShareButton = () => {
             return
           }
           kakao.Share.sendDefault({
+            container: "#kakaotalk-share-btn",
             objectType: "location",
             address: SHARE_ADDRESS,
             addressTitle: SHARE_ADDRESS_TITLE,
