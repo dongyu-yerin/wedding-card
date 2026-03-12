@@ -39,7 +39,7 @@ export const KMAP_PLACE_ID = 8634826
 
 export const BRIDE_FULLNAME = "심예린"
 export const BRIDE_FIRSTNAME = "예린"
-export const BRIDE_TITLE = "장녀"
+export const BRIDE_TITLE = "딸"
 export const BRIDE_FATHER = "심상길"
 export const BRIDE_MOTHER = "임순원"
 export const BRIDE_INFO = [
@@ -65,7 +65,7 @@ export const BRIDE_INFO = [
 
 export const GROOM_FULLNAME = "김동유"
 export const GROOM_FIRSTNAME = "동유"
-export const GROOM_TITLE = "차남"
+export const GROOM_TITLE = "아들"
 export const GROOM_FATHER = "김기수"
 export const GROOM_MOTHER = "송현주"
 export const GROOM_INFO = [
