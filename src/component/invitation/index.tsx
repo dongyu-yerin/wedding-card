@@ -25,27 +25,27 @@ export const Invitation = () => {
 
       <div className="break" />
 
-      <div className="content">초여름의 푸르름 속에서</div>
-      <div className="content">소중한 분들을 모시고</div>
-      <div className="content">새로운 시작을 하려 합니다.</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>초여름의 푸르름 속에서</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>소중한 분들을 모시고</div>
+      <div className="content"  style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>새로운 시작을 하려 합니다.</div>
       <div className="break" />
-      <div className="content">거센 바람과 어둠속에서도</div>
-      <div className="content">서로를 믿고 응원하는</div>
-      <div className="content">부부가 되겠습니다.</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>거센 바람과 어둠속에서도</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>서로를 믿고 응원하는</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>부부가 되겠습니다.</div>
       <div className="break" />
-      <div className="content">기쁜날 함께 하시어</div>
-      <div className="content">저희의 앞날을 축복해 주세요.</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>기쁜날 함께 하시어</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>저희의 앞날을 축복해 주세요.</div>
 
       <div className="break" />
 
-      <div className="name">
+      <div className="name" style={{marginBottom: "0.5rem"}}>
         {GROOM_FATHER} · {GROOM_MOTHER}
         <span className="relation">
           의 <span className="relation-name">{GROOM_TITLE}</span>
         </span>{" "}
         {GROOM_FULLNAME}
       </div>
-      <div className="name">
+      <div className="name" style={{marginTop: "0.5rem"}}>
         {BRIDE_FATHER} · {BRIDE_MOTHER}
         <span className="relation">
           의 <span className="relation-name">{BRIDE_TITLE}</span>
@@ -134,6 +134,7 @@ export const Invitation = () => {
       >
         연락하기
       </Button>
+      <br />
     </LazyDiv>
   )
 }
