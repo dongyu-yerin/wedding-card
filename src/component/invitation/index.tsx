@@ -21,7 +21,8 @@ export const Invitation = () => {
   const { openModal, closeModal } = useModal()
   return (
     <LazyDiv className="card invitation">
-      <h2 className="english">Invitation</h2>
+      {/* <h2 className="english">Invitation</h2> */}
+      <h2 className="korean">초대합니다</h2>
 
       <div className="break" />
 
@@ -29,12 +30,12 @@ export const Invitation = () => {
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>소중한 분들을 모시고</div>
       <div className="content"  style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>새로운 시작을 하려 합니다.</div>
       <div className="break" />
-      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>거센 바람과 어둠속에서도</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>올바른 길로 인도하며</div>
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>서로를 믿고 응원하는</div>
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>부부가 되겠습니다.</div>
       <div className="break" />
-      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>기쁜날 함께 하시어</div>
-      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>저희의 앞날을 축복해 주세요.</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>행복한 가정을 이루도록</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>오셔서 축복해 주세요.</div>
 
       <div className="break" />
 

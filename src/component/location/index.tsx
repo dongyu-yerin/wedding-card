@@ -8,7 +8,7 @@ export const Location = () => {
   return (
     <>
       <LazyDiv className="card location">
-        <h2 className="english">Location</h2>
+        <h2 className="english">오시는 길</h2>
         <div className="addr">
           {LOCATION}
           <div className="detail">{LOCATION_ADDRESS}</div>
@@ -45,11 +45,11 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            - 500 ~ 600대 동시 주차 가능
+            - 웨딩홀 500 ~ 600대 동시 주차 가능
             <br />
             - 무료 주차 <b>2시간</b>
-            <br />
-            - 주차권은 축의대 or 데스크 수령
+            {/* <br />
+            - 주차권은 축의대 or 데스크 수령 */}
             <br />
             - 사전정산 (2층 에스컬레이터 앞)
           </div>

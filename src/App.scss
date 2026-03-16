@@ -11,14 +11,14 @@
 @use "./component/shareButton";
 
 :root {
-  --theme-color: #ff8585;
-  --theme-bg-color: #ffe7e7;
-  --alt-color: #c28080;
-  --alt-bg-color: #f4f0f0;
+  --theme-color: #719649;
+  --theme-bg-color: #e3f2d3;
+  --alt-color: #b8d49a;
+  --alt-bg-color: #e3f2d3;
   --dark-color: #282c34;
   --dark-grey-color: #d2d2d2;
-  --light-grey-color: #eaeaea;
-  --light-color: #f9f9f9;
+  --light-grey-color: #e3f2d3;
+  --light-color: #f1f8e9;
   --white-color: #ffffff;
   --red-color: #ff0000;
 
@@ -205,6 +205,9 @@ h2 {
   font-weight: normal;
   &.english {
     font-family: "Allura";
+  }
+  &.korean {
+    font-family: 'Noto Serif KR', serif;
   }
 }
 
