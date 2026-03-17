@@ -21,26 +21,17 @@ const DAY_OF_WEEK = [
 export const Cover = () => {
   return (
     <LazyDiv className="card cover">
-      <div className="wedding-date">
-        {WEDDING_DATE.format("YYYY")}
-        <div className="divider" />
-        {WEDDING_DATE.format("MM")}
-        <div className="divider" />
-        {WEDDING_DATE.format("DD")}
-      </div>
-      <div className="wedding-day-of-week">
-        {DAY_OF_WEEK[WEDDING_DATE.day()]}
-      </div>
+      <h2 className="korean">동유 ♥ 예린</h2>
       <div className="image-wrapper">
         <img src={COVER_IMAGE} alt="sample" />
       </div>
       {/* <div className="subtitle">Save the date for the wedding of</div> */}
       <div  className="subtitle"/>
-      <div className="names">
+      {/* <div className="names">
         {GROOM_FULLNAME}
         <div className="divider" />
         {BRIDE_FULLNAME}
-      </div>
+      </div> */}
       <div className="info">{WEDDING_DATE.format(WEDDING_DATE_FORMAT)}</div>
       <div className="info">{LOCATION} (가든홀)</div>
     </LazyDiv>

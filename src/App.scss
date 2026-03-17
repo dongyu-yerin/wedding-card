@@ -207,8 +207,17 @@ h2 {
     font-family: "Allura";
   }
   &.korean {
-    font-family: 'Noto Serif KR', serif;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal
   }
+}
+div {
+  // &.korean {
+  //   font-family: "Gamja Flower", sans-serif;
+  //   font-weight: 400;
+  //   font-style: normal
+  // }
 }
 
 div.break {

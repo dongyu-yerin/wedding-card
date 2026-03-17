@@ -24,7 +24,7 @@ export const Invitation = () => {
       {/* <h2 className="english">Invitation</h2> */}
       <h2 className="korean">초대합니다</h2>
 
-      <div className="break" />
+      {/* <div className="break" /> */}
 
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>초여름의 푸르름 속에서</div>
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>소중한 분들을 모시고</div>

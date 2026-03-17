@@ -46,7 +46,7 @@ export const Calendar = () => {
       <div className="korean" style={{fontWeight: "bold", fontSize: "1.1rem", marginTop: "0.3rem", marginBottom: "0.1rem"}}>
         {WEDDING_DATE.format("YYYY.M.D(dd)")}</div>
       {/* <div className="break" /> */}
-      <div style={{fontWeight: "bold", fontSize: "1.1rem", marginTop: "0.1rem", marginBottom: "0.3rem"}}>
+      <div className="korean" style={{fontWeight: "bold", fontSize: "1.1rem", marginTop: "0.1rem", marginBottom: "0.3rem"}}>
         {WEDDING_DATE.format(`A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`)}</div>
       <div className="calendar-wrapper">
         <div className="head holiday">
