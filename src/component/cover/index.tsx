@@ -33,7 +33,7 @@ export const Cover = () => {
         {BRIDE_FULLNAME}
       </div> */}
       <div className="info">{WEDDING_DATE.format(WEDDING_DATE_FORMAT)}</div>
-      <div className="info">{LOCATION} (가든홀)</div>
+      <div className="info">수원 메리빌리아 더 프레스티지 가든홀</div>
     </LazyDiv>
   )
 }

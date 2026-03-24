@@ -38,6 +38,9 @@ export const Location = () => {
             롯데몰 외부 또는 내부를 가로질러 오시면 됩니다.
           </div>
         </div>
+          <div style={{position:"relative", width:"100%", paddingBottom:"56.25%", height:"0"}}>
+            <iframe style={{position:"absolute", top:"0", left:"0", width:"100%", height:"100%", zIndex:"10"}} src="https://www.youtube.com/embed/PnpmKfZJgOk?si=jGGIlUccWLJbOxpa" title="YouTube video player" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
         <div className="location-info">
           <div className="transportation-icon-wrapper">
             <CarIcon className="transportation-icon" />

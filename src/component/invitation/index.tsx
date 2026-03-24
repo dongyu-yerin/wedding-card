@@ -30,7 +30,8 @@ export const Invitation = () => {
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>소중한 분들을 모시고</div>
       <div className="content"  style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>새로운 시작을 하려 합니다.</div>
       <div className="break" />
-      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>올바른 길로 인도하며</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>같은 곳을 바라보고</div>
+      <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>같은 길을 걸으며</div>
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>서로를 믿고 응원하는</div>
       <div className="content" style={{fontSize: "0.96rem", marginTop: "0.3rem", marginBottom: "0.3rem"}}>부부가 되겠습니다.</div>
       <div className="break" />
