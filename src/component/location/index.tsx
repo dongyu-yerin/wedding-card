@@ -39,7 +39,7 @@ export const Location = () => {
           </div>
         </div>
           <div style={{position:"relative", width:"100%", paddingBottom:"56.25%", height:"0"}}>
-            <iframe style={{position:"absolute", top:"0", left:"0", width:"100%", height:"100%", zIndex:"10"}} src="https://www.youtube.com/embed/PnpmKfZJgOk?si=jGGIlUccWLJbOxpa" title="YouTube video player" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe style={{position:"absolute", top:"0", left:"0", width:"100%", height:"100%", zIndex:"10"}} src="https://www.youtube.com/embed/PnpmKfZJgOk?si=jGGIlUccWLJbOxpa?controls=0&fs=0" title="YouTube video player" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin"></iframe>
           </div>
         <div className="location-info">
           <div className="transportation-icon-wrapper">
