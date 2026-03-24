@@ -1,4 +1,4 @@
-import coverImage from "./cover.jpg"
+import coverImage from "./cover.webp"
 import image1 from "./image1.webp"
 import image2 from "./image2.webp"
 import image3 from "./image3.webp"
